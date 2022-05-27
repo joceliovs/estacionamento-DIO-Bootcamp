@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+table {
+    color: white;
+    font-size: 30px;
+}
+
+.entrada1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: solid aqua;
+    height: 150px;
+    padding: 10px;
+}
+
+.entrada1 button {
+    border-radius: 15%;
+    color: grey;
+}
+
+.registro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid lightgray;
+}
